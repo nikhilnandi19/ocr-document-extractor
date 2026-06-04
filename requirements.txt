@@ -1,0 +1,16 @@
+flask>=3.0.0
+flask-cors>=4.0.0
+werkzeug>=3.0.0
+
+# OCR — PaddleOCR only, no Tesseract
+# macOS Apple Silicon: install paddlepaddle before paddleocr
+paddlepaddle>=2.6.0
+paddleocr>=2.7.0
+
+# PDF to image
+pymupdf>=1.23.0
+
+# Image processing
+opencv-python-headless>=4.8.0
+pillow>=10.0.0
+numpy>=1.24.0
